@@ -14,7 +14,7 @@ services:
     ports:
       - 80:80
     environment:
-      - REGISTRY_TITLE=My Private Docker Registry
+      - REGISTRY_TITLE=FFY Docker Registry
       - REGISTRY_URL=http://localhost:5000
       - SINGLE_REGISTRY=true
     depends_on:
